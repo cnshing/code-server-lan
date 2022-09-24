@@ -47,7 +47,7 @@ Modify the default nginx's configuration to enable WebSockets support at /nginx-
 Finally build the docker container<br/>
 By default, $(hostname -I | awk '{print $1}') should be the instance IP. Replace it with the instance IP noted earlier if that is not the case
 ```
-$APP_URL=http://$(hostname -I | awk '{print $1}'):8680 docker-compose up -d
+APP_URL=http://$(hostname -I | awk '{print $1}'):8680 docker-compose up -d
 ```
 
 ## Connecting to your code-server
