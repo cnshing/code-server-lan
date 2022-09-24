@@ -25,7 +25,7 @@ Note down instance IP and port at the end of installation as you will need it la
 git clone https://github.com/medic/nginx-local-ip.git
 ```
 
-Modify the default nginx's configuration to enable WebSockets support by appending its location with
+Modify the default nginx's configuration to enable WebSockets support at /nginx-local-ip/default.conf.templateby appending its location with
 ```
   location / {
   
