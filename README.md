@@ -50,6 +50,7 @@ Finally build the docker container
 $APP_URL=http://$(hostname -I | awk '{print $1}'):8680 docker-compose up -d
 ```
 
+## Connecting to your code-server
 Connect to your code-server via https://ip-seperated-by-hypens.my.locali-ip.co/<br/>
 Example: https://192-168-0-3.my.local-ip.co
 
