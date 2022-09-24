@@ -10,7 +10,7 @@ As code-server requires HTTPS for full functionality, users over LAN will normal
 
 ## Requirements
 Internet<br/>
-docker
+docker-compose
 
 ## Install code-server
 Run [tteck's](https://github.com/tteck/Proxmox)'s code-server script
