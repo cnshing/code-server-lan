@@ -56,4 +56,4 @@ Example: https://192-168-0-3.my.local-ip.co
 
 ## Notes
 Since our reverse proxy is installed in a docker container, this container must be running for us to securely connect to code-server.<br/>
-
+It shold also be possible to set this network configuration without docker. 
