@@ -54,6 +54,9 @@ APP_URL=http://$(hostname -I | awk '{print $1}'):8680 docker-compose up -d
 Connect to your code-server via https://ip-seperated-by-hypens.my.local-ip.co/<br/>
 Example: https://192-168-0-3.my.local-ip.co
 
+## Expired Certificates
+nginx-local-ip is designed to refresh the certificates when needed on every run. In the event of encountering expired certificates, simply restart the container. 
+
 ## Notes
 Since our reverse proxy is installed in a docker container, this container must be running for us to securely connect to code-server.<br/>
 It shold also be possible to set this network configuration without docker. 
